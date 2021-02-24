@@ -1,0 +1,6 @@
+@use '../abstracts' as a;
+
+header {
+    width: 100%;
+    background: a.$green;
+}
