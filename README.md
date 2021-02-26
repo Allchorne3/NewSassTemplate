@@ -6,7 +6,7 @@ This project uses the following:
 
 ---------------------------------------------------------------------------------
 **NOTE**: This project uses a newer standard of SASS (Dart), so the way that sass is implemented is different. This project uses "@use" and "@forward" instead of "@import".
-
+**NOTE**: YOU WILL NEED TO HAVE NODE.JS INSTALLED. TO CHECK IF YOU HAVE IT, TYPE "node -v" INTO TERMINAL AND IF IT SHOWS YOU A VERSION THEN GREAT. IF NOT, THEN INSTALLED IT FROM THE NODE.JS WEBSITE
 ---------------------------------------------------------------------------------
 <br>
 
