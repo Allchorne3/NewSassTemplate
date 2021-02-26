@@ -13,7 +13,7 @@ YOU WILL NEED TO HAVE NODE.JS INSTALLED. TO CHECK IF YOU HAVE IT, TYPE "NODE -V"
 This project uses a newer standard of SASS (Dart), so the way that sass is implemented is different. This project uses "@use" and "@forward" instead of "@import".</b>
 
 ---------------------------------------------------------------------------------
-<br>
+
 
 ## **STARTING THE PROJECT**
 
@@ -37,7 +37,6 @@ Server running at http://localhost:1234
 
 Now you will have another newly created folder called "dist". This is where all the files will be saved. However, you still need to edit files within the "src" folder.
 
-<br>
 
 ### **Using GITHUB** 
 If using GitHub as version control then you will want to use a .gitignore file and write "node_modules" inside, without the quote marks. 
