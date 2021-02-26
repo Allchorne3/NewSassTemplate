@@ -5,13 +5,17 @@ This project uses the following:
 
 
 ---------------------------------------------------------------------------------
-**NOTE**: This project uses a newer standard of SASS (Dart), so the way that sass is implemented is different. This project uses "@use" and "@forward" instead of "@import".
 
-**NOTE**: YOU WILL NEED TO HAVE NODE.JS INSTALLED. TO CHECK IF YOU HAVE IT, TYPE "node -v" INTO TERMINAL AND IF IT SHOWS YOU A VERSION THEN GREAT. IF NOT, THEN INSTALLED IT FROM THE NODE.JS WEBSITE
+<b style="color: greenyellow;">**NOTES**
+
+YOU WILL NEED TO HAVE NODE.JS INSTALLED. TO CHECK IF YOU HAVE IT, TYPE "NODE -V" INTO TERMINAL AND IF IT SHOWS YOU A VERSION THEN GREAT. IF NOT, THEN INSTALLED IT FROM THE NODE.JS WEBSITE
+
+This project uses a newer standard of SASS (Dart), so the way that sass is implemented is different. This project uses "@use" and "@forward" instead of "@import".</b>
+
 ---------------------------------------------------------------------------------
 <br>
 
-### **STARTING THE PROJECT**
+## **STARTING THE PROJECT**
 
 To start this project, open terminal (Ctrl + ') and type "npm install". This will install all the dependencies needed for this project stated in the package.json file. You will have a newly created folder called "node_modules" with all the necessary files
 
