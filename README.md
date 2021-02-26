@@ -22,7 +22,6 @@ To start this project, open terminal (Ctrl + ') and type "npm install". This wil
 If you look in "package.json", under "Scripts" you'll find "dev" and "build" scripts. They do the following:
  - Dev: Creates a development environment with quick auto-refresh
  - Build: This will be used when creating the final build to deploy the live site.
-
 To create a server which can auto-refresh your web page, open terminal (Ctrl + ') and enter "npm run dev".  You will see something along the lines of: 
 
 ```
@@ -39,6 +38,6 @@ Now you will have another newly created folder called "dist". This is where all 
 
 
 ### **Using GITHUB** 
-If using GitHub as version control then you will want to use a .gitignore file and write "node_modules" inside, without the quote marks. 
+If using GitHub as version control then you will want to create a ".gitignore" file in the root directory and write "node_modules" inside, without the quote marks. 
 
 If you download this project to another computer then you will not have the "node_modules" folder included so this is where you start the project with "npm install" to download the "node_modules" folder.

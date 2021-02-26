@@ -1,6 +1,5 @@
 @use '../abstracts' as a;
 
 .card {
-    font-size: a.$font-size;
     color: a.$green;
 }

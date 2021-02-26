@@ -1,0 +1,33 @@
+@use '../base' as b;
+
+.logo {
+    text-decoration: none;
+    font-family: b.$ff-main;
+    font-weight: b.$fw-bold;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+nav {
+
+    ul {
+        display: flex;
+
+        li {
+            list-style: none;
+            
+            a {
+                text-decoration: none;
+                font-family: b.$ff-body;
+                font-weight: b.$fw-bold;
+                font-size: 14px;
+                color: #333333;
+            }
+
+            &:not(:last-child) {
+                margin-right: 30px;
+            }
+        }
+    }
+}

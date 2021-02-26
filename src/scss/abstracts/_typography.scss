@@ -1,0 +1,5 @@
+@use '../base' as b;
+
+p {
+    font-family: b.$ff-body;
+}
