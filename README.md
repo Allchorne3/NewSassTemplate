@@ -23,7 +23,7 @@ If you look in "package.json", under "Scripts" you'll find "dev" and "build" scr
  - Dev: Creates a development environment with quick auto-refresh
  - Build: This will be used when creating the final build to deploy the live site.
 
-To start the project open terminal (Ctrl + ') and enter "npm run dev".  You will see something along the lines of: 
+To create a server which can auto-refresh your web page, open terminal (Ctrl + ') and enter "npm run dev".  You will see something along the lines of: 
 
 ```
 PS D:\Web Development\NewSass> npm run dev
