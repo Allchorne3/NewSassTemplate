@@ -2,3 +2,7 @@
 @use 'abstracts';
 @use 'components';
 @use 'layout';
+
+body {
+    background-color: rgba(black, .7);
+}

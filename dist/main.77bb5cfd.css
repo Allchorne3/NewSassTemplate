@@ -50,4 +50,8 @@ nav ul li:not(:last-child) {
   margin-right: 30px;
 }
 
+body {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 /*# sourceMappingURL=/main.77bb5cfd.css.map */
