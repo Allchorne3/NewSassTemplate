@@ -1,20 +1,15 @@
-@mixin respond($breakpoint){
+@use 'sass:map';
 
-    @if $breakpoint == desktop{
-        @media screen and (min-width: 1200px){
-            @content;
-        }
-    }
+$breakpoints: (
+    desktop: 1200px,
+    tablet: 999px,
+    mobile: 599px
+);
 
-    @if $breakpoint == tablet{
-        @media screen and (max-width: 999px){
-            @content;
-        }
-    }
-
-    @if $breakpoint == mobile{
-        @media screen and (max-width: 599px){
-            @content;
-        }
+@mixin responsive($key) {
+    $size: map.get($breakpoints, $key);
+     
+    @media screen and (max-width: $size) {
+        @content;
     }
 }
